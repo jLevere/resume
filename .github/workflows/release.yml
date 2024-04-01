@@ -19,7 +19,7 @@ jobs:
 
       - name: Compile typst
         run: |
-          typst compile resume.typ --input links=$LINKS
+          typst compile resume.typ --input links=${{ env.LINKS }}
 
       - name: Get tag name
         id: tag-name
