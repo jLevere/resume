@@ -18,11 +18,11 @@ jobs:
           sudo snap install typst
 
       - name: Debug links
-        run: env
+        run: vars
 
       - name: Compile typst
         run: |
-          typst compile resume.typ --input links=${{ env.LINKS }}
+          typst compile resume.typ --input links=${{ vars.LINKS }}
 
       - name: Get tag name
         id: tag-name
