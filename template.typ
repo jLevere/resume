@@ -1,30 +1,3 @@
-// Function gets an input from the cli by name.
-// 
-// - key: (str): The key to return the value of
-// -> (boolean, str): Returns an option type with the result
-#let get_agument_by_key(key) = {
-  if sys.inputs.at(key, default: "").len() != 0 {
-    (true, sys.inputs.at(key))
-  } else {
-    (false, "")
-  }
-}
-
-// Function returns either the key value if it is present
-// or the default value if it is not
-//
-// key (str): Key to get from the cli args
-// default (str) = "": The default value to return. Blank if none set
-// -> str
-#let set_from_argument(key, default: "") = {
-  let arg_option = get_agument_by_key(key)
-  if arg_option.first() {
-    arg_option.last()
-  } else {
-    default
-  }
-}
-
 // Function sets the document characteristics and builds the header.  Parameters
 // override cli arguments.
 //
@@ -32,11 +5,11 @@
 //   ` typst compile doc.typ --input key=value `
 #let conf(title: none, author: none, email: none, phone: none, links: none, doc) = {
 
-  let title = { if title == none {set_from_argument("title", default: "no title supplied")} }
-  let author = { if author == none {set_from_argument("author", default: "no author supplied")} }
-  let email = { if email == none {set_from_argument("email", default: "email@example.com")} }
-  let phone = { if phone == none {set_from_argument("phone", default: "(123) 123 1234")} }
-  let links = { if links == none {set_from_argument("links", default: "github.com/example")}}
+  let title = { if title == none { sys.inputs.at("title", default: "Default Title")} }
+  let author = { if author == none { sys.inputs.at("author", default: "Default Author") } }
+  let email = { if email == none { sys.inputs.at("email", default: "Default Email") } }
+  let phone = { if phone == none { sys.inputs.at("phone", default: "Default Phone") } }
+  let links = { if links == none { sys.inputs.at("links", default: "Default Links") }}
 
   set document(author: author, title: "resume")
   set text(

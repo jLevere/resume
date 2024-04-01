@@ -19,7 +19,7 @@ jobs:
 
       - name: Compile typst
         run: |
-          typst compile resume.typ --input links=${{ vars.LINKS }}
+          typst compile resume.typ --input title=${{ vars.TITLE }} --input author=${{ vars.AUTHOR }} --input email=${{ vars.EMAIL }} --input links=${{ vars.LINKS }}
 
       - name: Get tag name
         id: tag-name
