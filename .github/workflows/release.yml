@@ -17,9 +17,6 @@ jobs:
         run: |
           sudo snap install typst
 
-      - name: Debug links
-        run: vars
-
       - name: Compile typst
         run: |
           typst compile resume.typ --input links=${{ vars.LINKS }}
