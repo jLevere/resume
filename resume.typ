@@ -17,7 +17,7 @@
   "May-August 2024",
   (
     "Shadowed experienced pentesters during engagements, gaining insights and experience",
-    "Worked in small team to engineer a custom solution for stealthy LDAP enumeration and writing by designing and implementing Windows Communication Foundation (WCF) framework in Python. The project, encompassing nearly 7,000 lines of code, involved reversing and implementing eight protocol layers and authentication mechanisms from scratch. Conducted extensive research and review of Windows protocol documentation, ensuring full interoperability with the Impacket toolset. Produced a standalone tool and presented it to IBM executives",
+    "Worked in small team to engineer a custom solution for stealthy LDAP enumeration and writing by designing and implementing Windows Communication Foundation framework in Python. The project, encompassing nearly 7,000 lines of code, involved reversing and implementing eight protocol layers and authentication mechanisms from scratch. Conducted extensive research and review of Windows protocol documentation, ensuring full interoperability with the Impacket toolset. Produced a standalone tool and presented it to IBM executives",
   ),
 )
 
