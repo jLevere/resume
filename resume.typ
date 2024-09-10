@@ -7,7 +7,7 @@
 
 #degree("The Ohio State University", "Bachelor of Arts in Computer and Information Science", "Expected May 2025")
 
-== Experence
+== Experience
 #chiline()
 
 #entry(
@@ -63,12 +63,12 @@
 #entry(
   "Athletics Experience, Target Pistol Shooting",
   "US National Team",
-  "OSU Varsity Athelete",
+  "OSU Varsity Athlete",
   "August 2016 - 2024",
   (
     "Dedicate 20+ hours a week to training and practice while maintaining a full academic course load",
     "Communicate with teammates of various demographic backgrounds to establish a positive team environment",
     "2021, 2022, 2023, 2024 All-American, OSU Scholar Athlete",
-    "2018 CAT Games Mexico, 2018 Sourth Korea World Championship team, 2019 Pan-American Games Lima, 2020 Tokyo Olympian, Rapid Fire Pistol",
+    "2018 CAT Games Mexico, 2018 South Korea World Championship team, 2019 Pan-American Games Lima, 2020 Tokyo Olympian, Rapid Fire Pistol",
   ),
 )
