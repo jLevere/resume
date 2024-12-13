@@ -13,7 +13,7 @@
   set document(author: author, title: "resume", date: datetime.today())
   set text(font: "New Computer Modern", size: 11pt, lang: "en")
 
-  set page(margin: (x: 5em, y: 4em))
+  set page(margin: (x: 3em, y: 3em))
 
   set align(left + top)
 
@@ -44,6 +44,18 @@
 // Creates a resume body entry such as job or project
 #let entry(company, title, location, date, bullets) = {
   par(leading: 0.60em, entry_par(company, title, location, date, bullets))
+}
+
+///
+/// `skills` Makes a double bullpoint skills block
+///
+/// langs (str): comma separated list as a string
+///
+/// software (str): comma separated list as a string
+///
+/// -> str
+#let skills(langs, software) = {
+  par(leading: 0.60em, list(strong("Programming languages: ") + langs, strong("Software: ") + software))
 }
 
 // Creates a degree entry

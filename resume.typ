@@ -16,8 +16,8 @@
   "Austin, Texas",
   "May-August 2024",
   (
-    "Shadowed experienced pentesters during engagements, gaining insights and experience",
-    "Worked in small team to engineer a custom solution for stealthy LDAP enumeration and writing by designing and implementing Windows Communication Foundation framework in Python. The project, encompassing nearly 7,000 lines of code, involved reversing and implementing eight protocol layers and authentication mechanisms from scratch. Conducted extensive research and review of Windows protocol documentation, ensuring full interoperability with the Impacket toolset. Produced a standalone tool and presented it to IBM executives",
+    "Engineered a stealthy LDAP tool in python, building eight communication layers and authentication mechanisms from the ground up.  Developed a stand alone tool compatible with the well known impacket tool set.",
+    "Worked with senior pentesters during live engagements to identify and exploit vulnerabilities.",
   ),
 )
 
@@ -27,9 +27,9 @@
   "Austin, Texas",
   "May-August 2023",
   (
-    "Shadowed experienced pentesters on web app, external, and internal network penetration tests, gaining valuable insights",
-    "Completed comprehensive internal training in internal network penetration, web application security, cryptography, social engineering, and mobile application security",
-    "Worked in team to develop a C2 system using ETW for opportunistic traffic sniffing on Windows devices, enabling command execution and communication without direct socket use. Created and presented a proof of concept to IBM executives",
+    "Worked in team to develop a C2 system using ETW for opportunistic traffic capture on Windows devices, enabling covert communication without direct socket use. Presented a proof of concept to IBM executives.",
+    "Shadowed experienced pentesters on app and internal network penetration tests, gaining valuable insights.",
+    "Completed series of expert-led, training programs focused on network penetration, web application security, cryptography, social engineering, and mobile application security.",
   ),
 )
 
@@ -39,8 +39,8 @@
   "Columbus, Ohio",
   "May 2022 - August 2022",
   (
-    "Develop processes to track and document vulnerability remediation across four thousand devices",
-    "Worked with the myriad of tools used to secure and manage large enterprise environments including CrowdStrike, Qualys, and the SolarWinds suite",
+    "Developed processes to track and document vulnerability remediation across four thousand devices.",
+    "Worked with the myriad of tools used to secure and manage large enterprise environments including CrowdStrike, Qualys, and the SolarWinds suite.",
   ),
 )
 
@@ -53,10 +53,11 @@
   "Columbus, Ohio",
   "August 2020 - Present",
   (
-    "Member of the winning RIT ISTS 2022 team. Competed in ISTS 2022-2024",
+    "Member of the winning RIT ISTS 2022 team, an attack-defense cybersecurity competition. Competed in ISTS from 2022 to 2024.",
+    "Led meetings, managed AWS infrastructure using Terraform, and coordinated BuckeyeCTF, organizing participation for thousands annually.",
     "Participated in the Cyber Truck Challenge 2022, working in a six-person team to map and attack heavy truck engine control units, communication networks, and cyber-physical systems. Presented findings and vulnerabilities to OEMs",
-    "Collaborated with the Truck Cybersecurity Research Group to develop attack methodologies for Engine Control Units",
-    "Design Python network support for J1939 intelligent fuzzers and J1939 Transport Protocol",
+    "Collaborated with the Truck Cybersecurity Research Group to develop attack methodologies for Engine Control Units.",
+    "Designed Python network support for J1939 intelligent fuzzers and J1939 Transport Protocol.",
   ),
 )
 
@@ -66,9 +67,17 @@
   "OSU Varsity Athlete",
   "August 2016 - 2024",
   (
-    "Dedicate 20+ hours a week to training and practice while maintaining a full academic course load",
-    "Communicate with teammates of various demographic backgrounds to establish a positive team environment",
-    "2021, 2022, 2023, 2024 All-American, OSU Scholar Athlete",
-    "2018 CAT Games Mexico, 2018 South Korea World Championship team, 2019 Pan-American Games Lima, 2020 Tokyo Olympian, Rapid Fire Pistol",
+    "2020 Tokyo Olympian, Rapid Fire Pistol",
+    "Dedicated 20+ hours a week to training and practice while maintaining a full academic course load.",
+    "2021, 2022, 2023, 2024 All-American, OSU Scholar Athlete.",
+    "2018 CAT Games Mexico, 2018 South Korea World Championship team, 2019 Pan-American Games Lima.",
   ),
+)
+
+== Skills
+#chiline()
+
+#skills(
+  "Python, C, Golang, Zig, Java, Terraform, Typst",
+  "Ghidra, Impacket, Ansible, AWS, PwnTools, BurpSuite, Wireshark, Git",
 )
